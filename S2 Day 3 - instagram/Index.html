@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main_content">
+      <!--header is a container that contains two icons and title-->
+      <div class="header">
+        <span><i class="fa fa-camera"></i></span>
+        <span id="heading">Instagram</span>
+        <span><i class="far fa-paper-plane"></i></span>
+      </div>
+      <!--div named story is a container that has four stories inside-->
+      <div class="story">
+        <!--Div named inner_story is a single story box (image and name)-->
+        <div class="inner_story">
+          <div class="story_profile my_story">
+            <!--Switch with you image here-->
+            <img
+              src="https://img.olympics.com/images/image/private/t_1-1_300/f_auto/v1687307644/primary/cqxzrctscdr8x47rly1g"
+            />
+          </div>
+          <!--Switch with your name (ID) here-->
+          <span id="name">LeoMessi</span>
+        </div>
+        <div class="inner_story">
+          <div class="story_profile my_story">
+            <!--Switch with you image here-->
+            <img
+              src="https://cdn.cnn.com/cnn/2020/images/01/27/kobe-header.jpg"
+            />
+          </div>
+          <!--Switch with your name (ID) here-->
+          <span id="name">KobyBryant</span>
+        </div>
+        <div class="inner_story">
+          <div class="story_profile my_story">
+            <!--Switch with you image here-->
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRad7T_y_UkXa4puUVkZsoLZNM4Exfr2Ky8eQ&s"
+            />
+          </div>
+          <!--Switch with your name (ID) here-->
+          <span id="name">Haazard</span>
+        </div>
+        <div class="inner_story">
+          <div class="story_profile my_story">
+            <!--Switch with you image here-->
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Allen_Iverson.jpg/1200px-Allen_Iverson.jpg"
+            />
+          </div>
+          <!--Switch with your name (ID) here-->
+          <span id="name">Iverson</span>
+        </div>
+      </div>
+      <div class="main_feed">
+        <div class="feed">
+          <div class="feed_user">
+            <div class="user_image">
+              <!--Feed's User Image here!-->
+              <img
+                src="https://img.olympics.com/images/image/private/t_1-1_300/f_auto/v1687307644/primary/cqxzrctscdr8x47rly1g"
+              />
+            </div>
+            <div class="user_name">
+              <!--Feed's User Name here!-->
+              <h2>LeoMessi</h2>
+            </div>
+          </div>
+          <div class="feed_main">
+            <!--Main Feed Image here!-->
+            <div class="slideshow-container">
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img
+                  src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2024-07/240712-Lionel-Messi-ac-1153p-0aee0c.jpg"
+                  style="width: 100%"
+                />
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img
+                  src="https://i.abcnewsfe.com/a/179411b3-eaef-4922-b29c-d16b3c197a77/Copa-America-Argentine-1-rt-jm-240715_1721055507072_hpEmbed_3x4.jpg"
+                  style="width: 100%"
+                />
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img
+                  src="https://ss-i.thgim.com/public/incoming/gy7yk3/article68405532.ece/alternates/LANDSCAPE_1200/2161418023.jpg"
+                  style="width: 100%"
+                />
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img
+                  src="https://c.ndtvimg.com/2024-07/0r0b5d2_lionel-messi-afp_625x300_15_July_24.jpg?im=FeatureCrop,algorithm=dnn,width=806,height=605"
+                  style="width: 100%"
+                />
+              </div>
+
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <!-- The dots/circles -->
+            <div style="text-align: center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+
+            <div class="feed_icon">
+              <span> <i class="far fa-heart"></i></span>
+              <span><i class="far fa-comment"></i></span>
+              <span><i class="far fa-paper-plane"></i></span>
+            </div>
+            <div class="feed_info">
+              <!--Change here-->
+              <span>좋아요 15,649,280개</span>
+              <span>
+                <!--Do not delete strong just change the text inside it (that the user id)-->
+                <strong>LeoMessi</strong> Team Argentina have won the 2024 Copa
+                America! Thank You for all of your support.</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="feed">
+          <div class="feed_user">
+            <div class="user_image">
+              <!--Feed's User Image here!-->
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRad7T_y_UkXa4puUVkZsoLZNM4Exfr2Ky8eQ&s"
+              />
+            </div>
+            <div class="user_name">
+              <!--Feed's User Name here!-->
+              <h2>Haazard</h2>
+            </div>
+          </div>
+          <div class="feed_main">
+            <!--Main Feed Image here!-->
+            <div class="slideshow-container">
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides2 fade">
+                <div class="numbertext">1 / 4</div>
+                <img
+                  src="https://static.standard.co.uk/s3fs-public/thumbnails/image/2016/01/03/11/Hazard.jpg?width=1200"
+                />
+              </div>
+
+              <div class="mySlides2 fade">
+                <div class="numbertext">2 / 4</div>
+                <img
+                  src="https://assets.goal.com/images/v3/bltace16d725fb253cf/Eden_Hazard_Real_Madrid_2021-22.jpg?auto=webp&format=pjpg&width=3840&quality=60"
+                  style="width: 100%"
+                />
+              </div>
+
+              <div class="mySlides2 fade">
+                <div class="numbertext">3 / 4</div>
+                <img
+                  src="https://i.guim.co.uk/img/media/780fac92debb09f06784433c57abec6dfd8b4672/459_122_2949_1769/master/2949.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=85f639667628eb68a532d07fda2e2186"
+                  style="width: 100%"
+                />
+              </div>
+              <div class="mySlides2 fade">
+                <div class="numbertext">4 / 4</div>
+                <img
+                  src="https://cdn.vox-cdn.com/thumbor/T9-naJnQ83dUiKf3KNLc3v05j08=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/24701352/1490390250.jpg"
+                  style="width: 100%"
+                />
+              </div>
+
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+            </div>
+
+            <!-- The dots/circles -->
+            <div style="text-align: center">
+              <span class="dot2" onclick="currentSlide2(1)"></span>
+              <span class="dot2" onclick="currentSlide2(2)"></span>
+              <span class="dot2" onclick="currentSlide2(3)"></span>
+              <span class="dot2" onclick="currentSlide2(4)"></span>
+            </div>
+
+            <div class="feed_icon">
+              <span> <i class="far fa-heart"></i></span>
+              <span><i class="far fa-comment"></i></span>
+              <span><i class="far fa-paper-plane"></i></span>
+            </div>
+            <div class="feed_info">
+              <!--Change here-->
+              <span>좋아요 1,928,812개</span>
+              <span>
+                <!--Do not delete strong just change the text inside it (that the user id)-->
+                <strong>Haazard</strong> My soccer career</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="feed">
+          <div class="feed_user">
+            <div class="user_image">
+              <!--Feed's User Image here!-->
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Allen_Iverson.jpg/1200px-Allen_Iverson.jpg"
+              />
+            </div>
+            <div class="user_name">
+              <!--Feed's User Name here!-->
+              <h2>Iverson</h2>
+            </div>
+          </div>
+          <div class="feed_main">
+            <div class="feed_img">
+              <img
+                src="https://media.gq.com/photos/616c8aea3dcc7aa5e46f741b/1:1/w_3000,h_3000,c_limit/site%20MS_GQAllenIverson%20_Z4A0099.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="feed_icon">
+              <span> <i class="far fa-heart"></i></span>
+              <span><i class="far fa-comment"></i></span>
+              <span><i class="far fa-paper-plane"></i></span>
+            </div>
+            <div class="feed_info">
+              <!--Change here-->
+              <span>좋아요 590,678개</span>
+              <span>
+                <!--Do not delete strong just change the text inside it (that the user id)-->
+                <strong>Iverson</strong> Allen Iverson</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav_bar">
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href="user.html"><i class="far fa-user"></i></a>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
